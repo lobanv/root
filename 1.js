@@ -3,8 +3,14 @@ function AddImage()
 {
 document.getElementById('Container').innerHTML = '<img src="' + src + '" alt="test image" width="300" height="200" />';
 }
+function AddImage2(target, src)
+{
+target.src = src;
+}
+function AddImage3(target, src)
+{
+target.src = src + '.png';
+}
 function TestLink()
 {
-alert('works');
 }
-alert('1.js loaded');
